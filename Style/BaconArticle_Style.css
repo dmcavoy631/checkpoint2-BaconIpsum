@@ -1,10 +1,8 @@
 
 @media (min-width: 576px){
-}
-
-@media (min-width: 576px) {
 
 }
+
 
 body{
   background-color: white;
@@ -13,18 +11,20 @@ body{
 
 *{
   font-family: 'Lato', sans-serif;
+  text-decoration: none;
 }
 
 .hiddenDrop {
   height: 50px;
   position: absolute;
-  background-color: #f46731;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   margin: 0 auto;
-  /* opacity: 0; */
-  box-sizing: content-box;
+  width: 50%;
+  left: 25%;
+  z-index: 100;
+  animation-delay: 1s;
 }
 
 .topMain:hover .hiddenDrop { 
@@ -40,9 +40,8 @@ h1, h2, p{
   justify-content: center; 
   flex-direction: column;
   align-items: center;
- 
   height: auto;
-  padding: 2%;
+  padding: 5%;
 }
 
 .Article1{

@@ -1,9 +1,9 @@
 
-@media (min-width: 576px){
-}
-
-@media (min-width: 576px) {
-
+@media (max-width: 576px){
+  div.btmMain{
+    
+    flex-direction: column;
+  }
 }
 
 body{
@@ -13,19 +13,19 @@ body{
 
 *{
   font-family: 'Lato', sans-serif;
+  text-decoration: none;
 }
 
 .hiddenDrop {
   height: 50px;
   position: absolute;
-  background-color: #f46731;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   margin: 0 auto;
   width: 50%;
-  /* opacity: 0; */
-  box-sizing: content-box;
+  left: 25%;
+  animation-delay: 1s;
 }
 
 .topMain:hover .hiddenDrop { 
@@ -51,7 +51,7 @@ h1, h2, p{
   flex-direction: row;
   justify-content: center; 
   align-items: center;
-  height:300px;
+  height:auto;
   text-align: center;
   padding: 2%;
   border: 0px;
