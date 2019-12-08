@@ -1,0 +1,71 @@
+
+@media (min-width: 576px){
+}
+
+@media (min-width: 576px) {
+
+}
+
+body{
+  background-color: white;
+  
+}
+
+*{
+  font-family: 'Lato', sans-serif;
+}
+
+.hiddenDrop {
+  height: 50px;
+  position: absolute;
+  background-color: #f46731;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  /* opacity: 0; */
+  box-sizing: content-box;
+}
+
+.topMain:hover .hiddenDrop { 
+  opacity: 1;
+
+}
+
+h1, h2, p{
+  color: white;
+}
+.topMain{
+  display: flex;
+  justify-content: center; 
+  flex-direction: column;
+  align-items: center;
+  background-color: #2bcdc0;
+  height: 300px;
+  padding: 5%;
+}
+
+
+.btmMain{
+  background-color:#1b1b1b;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  height:auto;
+  text-align: center;
+  padding: 2%;
+  border: 0px;
+}
+
+.baconBits{
+  padding: 0%;
+}
+
+.baconBits h2{
+  padding-top: 12px;
+
+}
+.B1{
+  border-top: 25px solid #2bcdc0;
+  padding-top: 10px;
+}

@@ -1,7 +1,3 @@
-<style>
-@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
-</style> 
-
 
 @media (min-width: 576px){
 }
@@ -10,9 +6,13 @@
 
 }
 
-body, a{
+body{
   background-color: white;
   
+}
+
+*{
+  font-family: 'Lato', sans-serif;
 }
 
 .hiddenDrop {
@@ -21,18 +21,15 @@ body, a{
   background-color: #f46731;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  width: 98%;
-  opacity: 0;
-  font-family: 'Lato', sans-serif;
-  animation-name: ;
+  justify-content: center;
+  margin: 0 auto;
+  /* opacity: 0; */
+  box-sizing: content-box;
 }
 
-.hiddenDrop:hover{
+.topMain:hover .hiddenDrop { 
   opacity: 1;
-}
-.menuItem{
-  
+
 }
 
 h1, h2, p{
@@ -41,40 +38,41 @@ h1, h2, p{
 .topMain{
   display: flex;
   justify-content: center; 
+  flex-direction: column;
   align-items: center;
-  background-color: #2bcdc0;
-  height: 300px;
+ 
+  height: auto;
+  padding: 2%;
 }
 
+.Article1{
+  background-color: #33a8dd;
+}
+.Article2{
+  background-color: #f46731;
+}
+
+.Article3{
+  background-color: #2bcdc0;
+}
 
 .btmMain{
   background-color:#1b1b1b;
   display: flex;
+  flex-direction: row;
   justify-content: center; 
   align-items: center;
-  height:300px;
+  height:auto;
   text-align: center;
   padding: 2%;
   border: 0px;
 }
 
 .baconBits{
-  padding: 10%;
+  padding: 0%;
 }
 
 .baconBits h2{
   padding-top: 12px;
 
-}
-.B1{
-  border-top: 25px solid #33a8dd;
-  padding-top: 10px;
-}
-.B2{
-  border-top: 25px solid #f46731;
-  padding-top: 10px;
-}
-.B3{
-  border-top: 25px solid #2bcdc0;
-  padding-top: 10px;
 }
